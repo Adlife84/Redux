@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: flex;
+}
+
+.container > input {
+  margin-right: 15px;
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+  font-size: 45px;
+}
+
+.blue {
+  background: cornflowerblue
+}

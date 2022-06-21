@@ -50,12 +50,6 @@ function App() {
 
   store.dispatch({ type: 'INIT_APPLICATION' })
 
-  let theme = store.getState().theme.value
-
-  // useEffect(() =>{
-  //   console.log(store)
-  // }, [store])
-
   return (
     <>
       <div className="container">
@@ -63,7 +57,6 @@ function App() {
         <input onClick={onThemeChange} type="submit" />
       </div>
       <br />
-      <h4>{theme}</h4>
       <h3 id='counter'></h3>
       <div className="container">
         <input className="green" onClick={onAddHandler} type="submit" value="Add" />
